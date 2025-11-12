@@ -6,3 +6,37 @@ Desde la manipulación de datos hasta la creación de `pipelines` de `machine le
 
 Ya sea que estés buscando mejorar tus habilidades en el `procesamiento distribuido` de datos o desees explorar las posibilidades que ofrece `PySpark` en conjunto con `Databricks`, este curso te brindará los conocimientos y la experiencia práctica necesarios para destacarte en el emocionante campo del análisis de datos a gran escala. ¡Prepárate para llevar tus habilidades de análisis de datos al siguiente nivel con PySpark y Databricks!
 
+
+## Requerimiento
+
+1. Crear un entorno
+
+`conda create --name spark python=3.13`
+
+2. Activar el entorno
+
+`conda activate spark`
+
+3. Instalar Java dentro del entorno
+
+`conda install -c conda-forge openjdk=17`
+
+4. Verifica que Java está funcionando
+
+`java -version`
+
+5. Instalar Apache Spark
+
+`conda install -c conda-forge pyspark`
+
+6. (opcional) Instalar Jupyter Notebook
+
+`conda install jupyter`
+
+
+Para instalar los 
+
+`pip install -r requirements.txt`
+
+
+
